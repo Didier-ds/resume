@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main_container {
+  margin: 0 auto;
+}
+
+.achievements_container {
+  padding: 2em 1em;
+  background-color: #f9fbfc;
+  display: block;
+}
+
+.my__background_head_text.head_after,
+.testimonials_section_head_text {
+  display: block;
+  color: #0090d4;
+  position: relative;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 0;
+  margin: 1rem 0;
+}
+
+.testimonials_section_sub_head_text {
+  display: block;
+  color: #191D26;
+  font-size: 1.4rem;
+  margin: .5em 0;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.experience_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.experience_flex .logo {
+  width: 3em;
+  border-radius: .3em;
+}
+
+.experience {
+  margin-bottom: 2em;
+}
+
+.experience_time {
+  display: block;
+  color: #747474;
+  font-weight: 600;
+  margin: 0 0 1em 0;
+  font-size: 1.125rem;
+}
+
+.my__skills .skills_list {
+  margin: 0;
+  padding: 0;
+}
+
+.my__skills .skills_list .skill {
+  color: #191D26;
+  font-weight: 300;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.project {
+  margin: 0 0 3em 0;
+}
+
+.project .testimonials_section_sub_head_text {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.project .testimonials_section_text_content {
+  font-size: .8rem;
+  color: #747474;
+  font-weight: 600;
+}
+
+.sub-talks {
+  display: block;
+  color: #191D26;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 0;
+  font-size: 1.25rem;
+}
+
+.footer_links_list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_links_list li {
+  color: #191D26;
+  font-weight: 800;
+  font-size: 1.5rem;
+  list-style-type: none;
+  text-decoration: underline;
+  margin: .5em 0;
+  padding: 0;
+}
+
+.footer_links_list li a {
+  color: #0090d4;
+}
+
+.experience .skills_list {
+  padding: 0 1em;
+}
+
+.experience .skills_list .skill {
+  color: #191D26;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: .3em 0;
+}
+
+.testimonials_section_text_content {
+  color: #191D26;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.skills_background_container {
+  margin: 4rem 0;
+  padding: 0 1em;
+}
+
+.skills_background_container .text_content {
+  color: #191D26;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.grid-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header {
+  padding: 0 1rem;
+}
+
+.talks {
+  color: #00a9f7;
+  margin: 1em 0 .5em 0;
+  font-size: 2rem;
+}
+
+.footer_container {
+  padding: 0 1rem;
+}
+
+@media (min-width: 995px) {
+  .testimonials_section_text_content {
+    max-width: 80%;
+  }
+  .achievements_container {
+    padding: 2em 5em;
+  }
+  .talks {
+    font-size: 4rem;
+    margin: 0 auto;
+  }
+  .header {
+    padding: 5em 0 0 5em;
+  }
+  .footer_container {
+    padding: 8em 5em;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+  }
+  .my__background {
+    max-width: 80%;
+  }
+  .skills_background_container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
+    padding: 0 5em;
+  }
+}
+
+@media (min-width: 425px) {
+  .achievements_container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
+  }
+  .grid-2 {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+/*# sourceMappingURL=style.css.map */
