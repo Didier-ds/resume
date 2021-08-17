@@ -75,10 +75,22 @@
         }
     }
     
+    .project__container,
+    .education__container,
+    .courses__container,
+    .experience__container {
+        padding: 1em 0;
+    }
+    
+    a {
+        color: #00a9f7;
+        text-decoration: none;
+    }
+    
     .project {
         margin: 0 0 3em 0;
         .testimonials_section_sub_head_text {
-            font-weight: 600;
+            font-weight: 700;
             font-size: 1.2em;
         }
         .testimonials_section_text_content {
@@ -150,13 +162,14 @@
     }
     
     .header {
-        padding: 0 1rem;
+        padding: 10em 0 0 1rem;
     }
     
     .talks {
         color: #00a9f7;
-        margin: 1em 0 .5em 0;
-        font-size: 2rem;
+        margin: 1em 0 0 0;
+        font-size: 3rem;
+        font-weight: 900;
     }
     
     .footer_container {
@@ -175,7 +188,7 @@
             margin: 0 auto;
         }
         .header {
-            padding: 5em 0 0 5em;
+            padding: 10em 0 0 5em;
         }
         .footer_container {
             padding: 8em 5em;
