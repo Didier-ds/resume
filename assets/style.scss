@@ -26,6 +26,13 @@
                         display: block;
                     }
                     
+                    .skills_dissection {
+                        display: flex;
+                        ul:first-of-type {
+                            padding-right: 3em
+                        }
+                    }
+                    
                     .my__background_head_text.head_after,
                     .testimonials_section_head_text {
                         display: block;
