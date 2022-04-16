@@ -9,6 +9,12 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .contact_me__form {
   margin: 0 auto;
   background-color: #0090d4;
@@ -21,16 +27,6 @@ body {
   padding: 5em 1em;
   background-color: #f9fbfc;
   display: block;
-}
-
-.skills_dissection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.skills_dissection ul:first-of-type {
-  padding-right: 3em;
 }
 
 .my__background_head_text.head_after,
@@ -87,6 +83,7 @@ body {
 
 .my__skills .skills_list {
   margin: 0;
+  margin-right: 2em;
   padding: 0;
 }
 
